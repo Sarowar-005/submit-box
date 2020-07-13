@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.main-box{
+    width: 700px;
+    height: 380px;
+    padding: 40px;
+    background-color: rgb(247, 247, 247);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(206, 206, 206);
+}
+.title{
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+.title label{
+    width: 100%;
+}
+.inputForm{
+    width: 75%;
+    float: left;
+}
+.inputForm input ,select{
+    width: 100%;
+
+}
+textarea{width:100%}
+.submit{
+    float: right;
+}
+ input, select, textarea{
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border:1px solid rgb(196, 196, 196);
+    border-radius: 5px;;
+
+}
+.submit button {
+    background-color: #249a24;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
